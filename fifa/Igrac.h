@@ -16,7 +16,7 @@ bool povredjen;
         golovi = 100;
         povredjen = false;
         }
-        Igrac(string i, string p, int g,POZICIJA po, int go, bool povre):Covek(i, p){
+        Igrac(std::string i, std::string p, int g,POZICIJA po, int go, bool povre):Covek(i, p){
         godiste = g;
         pozicija = po;
         golovi = go;

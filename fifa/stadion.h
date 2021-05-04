@@ -12,7 +12,7 @@ public:
     Stadion(){
     ime = "Camp Nou";
     izgradjen = 1900;
-    tribine = malloc(sizeof(tribina)*4);
+    tribine =(Tribina*) malloc(sizeof(class Tribina)*4);
     }
 
     Stadion(string i, int iz, Tribina* t){
@@ -33,7 +33,7 @@ public:
 
     void setIme(string i){ime = i;}
     void setIzgradjen(int i){izgradjen = i;}
-    void setTribine(Tribine* t){tribine = t;}
+    void setTribine(Tribina* t){tribine = t;}
 
 };
 

@@ -33,13 +33,18 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="Igrac.h" />
+		<Unit filename="account.h" />
 		<Unit filename="covek.h" />
+		<Unit filename="dinstring.hpp" />
+		<Unit filename="doktor.h" />
+		<Unit filename="dres.h" />
 		<Unit filename="klub.h" />
+		<Unit filename="komentator.h" />
 		<Unit filename="list.hpp" />
 		<Unit filename="lopta.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="mec.h" />
-		<Unit filename="navijac.h" />
+		<Unit filename="pack.h" />
 		<Unit filename="reprezentacija.h" />
 		<Unit filename="stadion.h" />
 		<Unit filename="sudija.h" />

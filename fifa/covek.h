@@ -1,10 +1,11 @@
 #ifndef COVEK_H_INCLUDED
 #define COVEK_H_INCLUDED
+#include <string>
 
 class Covek{
 private:
-string ime;
-string prezime;
+std::string ime;
+std::string prezime;
 
 public:
 Covek(){
@@ -12,7 +13,7 @@ ime = "Pera";
 prezime = "Peric";
 }
 
-Covek(string i, string p){
+Covek(std::string i, std::string p){
 ime = i;
 prezime = p;
 }
@@ -22,11 +23,11 @@ ime = c.ime;
 prezime = c.prezime;
 }
 
-string getIme() const{return ime;}
-string getPrezime() const {return prezime;}
+std::string getIme() const{return ime;}
+std::string getPrezime() const {return prezime;}
 
-void setIme(string i){ime = i;}
-void setPrezime(string p){prezime = p;}
+void setIme(std::string i){ime = i;}
+void setPrezime(std::string p){prezime = p;}
 
 
 };

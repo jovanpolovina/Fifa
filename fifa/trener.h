@@ -7,7 +7,7 @@ class Trener:public Covek{
 private:
     int brojMeceva;
     int godiste;
-    string iskustvo;
+    std::string iskustvo;
     STIL stil;
 public:
     Trener():Covek(){
@@ -16,7 +16,7 @@ public:
     iskustvo = "TRENIRAO za Real, Barselonu,...";
     stil = ODBRAMBRENI;
     }
-    Trener(string i, string p,int broj, int g, string d, STIL s):Covek(i, p){
+    Trener(std::string i, std::string p,int broj, int g, std::string d, STIL s):Covek(i, p){
     brojMeceva = broj;
     godiste = g;
     iskustvo = d;
@@ -31,12 +31,12 @@ public:
 
     int getBrojMeceva()const{return brojMeceva;}
     int getGodiste()const{return godiste;}
-    string getIskustvo()const{return iskustvo;}
+    std::string getIskustvo()const{return iskustvo;}
     STIL getStil()const{return stil;}
 
     void setBrojMeceva(int b){brojMeceva = b;}
     void setGodiste(int g){godiste = g;}
-    void setIskustvo(string i){iskustvo = i;}
+    void setIskustvo(std::string i){iskustvo = i;}
     void setStil(STIL s){stil =s;}
 
 };
